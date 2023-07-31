@@ -1,2 +1,3 @@
-# goit-markup-hw-03
-Flex-Box
+# goit-markup-hw-02
+
+Second homework for GoIT Course
