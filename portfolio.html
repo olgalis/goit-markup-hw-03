@@ -9,36 +9,43 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
-        <nav class="header-nav">
-<a class="header-logo link" href="./index.html">Web<span class="header-logo-titel">Studio</span></a>
-            <ul class="header-list list">
-                <li class="header-list-item"><a class="header-menu-link link" href="./index.html">Studio</a></li>
-                <li class="header-list-item"><a class="header-menu-link link" href="./portfolio.html">Portfolio</a></li>
-                <li class="header-list-item"><a class="header-menu-link link" href="">Contacts</a></li>
-            </ul>
-        </nav>
-        <address class="header-address">
-            <ul class="header-address-list list">
-                <li class="header-address-item"><a class="header-address-item-link link"
-                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="header-address-item"><a class="header-address-item-link link" href="tel:+110001111111">+11 (000)
-                        111-11-11</a></li>
-            </ul>
-        </address>
+        <div class="container header-container">
+            <nav class="header-nav">
+            <a class="header-logo link" href="./index.html">Web<span class="header-logo-titel">Studio</span></a>
+                <ul class="header-list list">
+                    <li class="header-list-item"><a class="header-menu-link link" href="./index.html">Studio</a></li>
+                    <li class="header-list-item"><a class="header-menu-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="header-list-item"><a class="header-menu-link link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="header-address">
+                <ul class="header-address-list list">
+                    <li class="header-address-item"><a class="header-address-item-link link"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="header-address-item"><a class="header-address-item-link link" href="tel:+110001111111">+11 (000)
+                            111-11-11</a></li>
+                </ul>
+            </address>
+        </div>
     </header>
     <main>
     <section class="filter">
-        <h1 hidden class="visually-hidden">Filter Buttons</h1>
-<ul class="filter-list list">
-    <li class="filter-list-item"><button class="filter-list-btn" type="button">All</button></li>
-    <li class="filter-list-item"><button class="filter-list-btn" type="button">Web Site</button></li>
-    <li class="filter-list-item"><button class="filter-list-btn" type="button">App</button></li>
-    <li class="filter-list-item"><button class="filter-list-btn" type="button">Design</button></li>
-    <li class="filter-list-item"><button class="filter-list-btn" type="button">Marketing</button></li>
-</ul>
+        <div class="container">
+            <h1 hidden class="visually-hidden">Filter Buttons</h1>
+            <ul class="filter-list list">
+                <li class="filter-list-item"><button class="filter-list-btn" type="button">All</button></li>
+                <li class="filter-list-item"><button class="filter-list-btn" type="button">Web Site</button></li>
+                <li class="filter-list-item"><button class="filter-list-btn" type="button">App</button></li>
+                <li class="filter-list-item"><button class="filter-list-btn" type="button">Design</button></li>
+                <li class="filter-list-item"><button class="filter-list-btn" type="button">Marketing</button></li>
+            </ul>
+        
     <ul class="apps-list list">
         <li class="apps-list-item" >
            <a class="link" href="">
@@ -104,12 +111,15 @@
             </a>
         </li>
     </ul>
+    </div>
     </section>
 </main>
     <footer class="footer">
-    <a class="footer-link link" href="./index.html">Web<span class="footer-logo">Studio</span></a>
-    <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth
-        solutions.</p>
+    <div class="container footer-container">
+        <a class="footer-link link" href="./index.html">Web<span class="footer-logo">Studio</span></a>
+        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth
+            solutions.</p>
+    </div>
     </footer>
     </body>
 </html>
