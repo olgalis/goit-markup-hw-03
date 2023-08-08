@@ -476,8 +476,6 @@ border-radius: 4px;
 
 
 .apps-list-item{
-    background: var(--white-background);
-    max-width: 360px;
     width: calc((100%-48px)/3);
 }
 .apps-container{
