@@ -311,7 +311,7 @@ padding-bottom: 188px;
     padding-top: 72px;
     padding-bottom: 120px;
 }    
-.products-list-list{}
+
 
 .products-list-item {
     background-color: var(--accent-corn-color);
@@ -482,8 +482,8 @@ border-radius: 4px;
 }
 .apps-container{
     padding: 32px 16px;
+    border: 1px solid var(--cornflower, #E7E9FC);
     border-top: none;
-    border: 1px solid #e7e9fc;
 }
 
 .apps-list-titel {
